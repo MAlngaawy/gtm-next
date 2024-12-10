@@ -36,6 +36,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
+      <GoogleTagManager gtmId="GTM-5G8KTZVJ" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -43,7 +44,6 @@ export default function RootLayout({
           <main className="container mx-auto">{children}</main>
         </MantineProvider>
       </body>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || ''} />
     </html>
   );
 }
