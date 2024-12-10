@@ -36,12 +36,12 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <GoogleTagManager gtmId="GTM-5G8KTZVJ" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MantineProvider theme={theme}>
           <main className="container mx-auto">{children}</main>
+          <GoogleTagManager gtmId="GTM-5G8KTZVJ" />
         </MantineProvider>
       </body>
     </html>
