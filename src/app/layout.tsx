@@ -33,7 +33,6 @@ export default function RootLayout({
   const theme = {};
   return (
     <html lang="en" {...mantineHtmlProps}>
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || ''} />
       <head>
         <ColorSchemeScript />
       </head>
@@ -44,6 +43,7 @@ export default function RootLayout({
           <main className="container mx-auto">{children}</main>
         </MantineProvider>
       </body>
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || ''} />
     </html>
   );
 }
