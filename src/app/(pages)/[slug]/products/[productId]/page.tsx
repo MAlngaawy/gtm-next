@@ -13,7 +13,7 @@ const OneProduct = () => {
     <div>
       <div className="flex flex-col gap-5">
         <h1 className="text-5xl">Products</h1>
-        <Button component={Link} href={'/products'}>
+        <Button component={Link} href={'/en/products'}>
           procucts
         </Button>
       </div>

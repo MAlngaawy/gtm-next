@@ -6,7 +6,7 @@ const Products = () => {
     <div className="items-center text-center my-10 mx-auto">
       <div className="flex flex-col gap-5">
         <h1 className="text-5xl">Products</h1>
-        <Button component={Link} href={'/'}>
+        <Button component={Link} href={'/en'}>
           Home
         </Button>
       </div>
