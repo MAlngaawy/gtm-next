@@ -1,4 +1,4 @@
-import { EventButton } from '@/components/EventButton';
+import { EventButton } from '@/app/components/EventButton';
 import { Button } from '@mantine/core';
 import Link from 'next/link';
 
